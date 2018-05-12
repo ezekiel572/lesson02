@@ -15,10 +15,13 @@ public class Main {
     System.out.println(Arrays.toString(A));
     System.out.println("Marker: " + K);
     System.out.println(Arrays.toString(moveElementsMarker(A, K)));
-
   }
 
-  public static int[] moveElementsMarker(int[] A, int K) {
+
+  /*
+  *Method moving element in Array with marker.
+  */
+  static int[] moveElementsMarker(int[] A, int K) {
 
     int aLength = A.length; //5
 
